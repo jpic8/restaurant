@@ -1,5 +1,7 @@
 # restaurant
 
+GH pages link -- https://jpic8.github.io/restaurant/
+
 This is my attempt at the Restaurant Page Project for The Odin Project:
 https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page
 
