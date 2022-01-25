@@ -1,0 +1,83 @@
+/*style.css*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(192, 95, 51);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+  border-left: 7px solid black;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 800px;
+  background-color: seashell;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.tabs > span {
+  font-size: 20px;
+  padding: 5px;
+  border-bottom: 1px dotted black;
+}
+
+.tabs > span:hover {
+  background-color: rgb(192, 95, 51);
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  background-color: seashell;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.home {
+  max-width: 700px;
+}
+
+.homePhoto {
+  height: 200px;
+}
+
+.about {
+  max-width: 700px;
+  display: none;
+}
+
+.aboutPhoto {
+  height: 200px;
+}
+
+.menu {
+  max-width: 700px;
+  display: none;
+}
+
+.menuPhoto {
+  height: 200px;
+}
