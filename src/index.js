@@ -4,7 +4,7 @@
 import "./style.css";
 import homeInfo from "./home.js";
 import aboutInfo from "./about.js";
-import menuInfo from "./menu";
+import menuInfo from "./menu.js";
 
 //creates div for tab navigation
 function createTabs() {
